@@ -16,7 +16,6 @@ function application(){
         return result;
     }
 
-
     return{
         fromNumber
     }
