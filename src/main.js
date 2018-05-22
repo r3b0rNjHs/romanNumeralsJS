@@ -7,9 +7,9 @@ function application(){
     function fromNumber(number) {
         let result = "";
         numerals.forEach(function (actualNumber) {
-            while (number >= actualNumber.value){
+            for (;number >= actualNumber.value;number -= actualNumber.value){
                 result += actualNumber.numeral;
-                number -= actualNumber.value;
+
             }
 
         });
