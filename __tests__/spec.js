@@ -21,6 +21,6 @@ describe('RomanNumerals',function () {
 
         expect(application().fromNumber(1)).toBe("I");
         expect(application().fromNumber(2)).toBe("II");
-        expect(application().fromNumber(2)).toBe("III");
+        expect(application().fromNumber(3)).toBe("III");
     });
 });
