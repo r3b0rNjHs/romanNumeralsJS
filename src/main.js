@@ -1,13 +1,13 @@
 function application(){
 
     function fromNumber(number) {
-        if (number === 3){
-            return "III";
+        let result = "";
+
+        while(number > 0){
+            result += "I";
+            --number;
         }
-        if (number === 2){
-            return "II";
-        }
-        return "I";
+        return result;
     }
 
 
