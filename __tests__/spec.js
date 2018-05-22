@@ -15,6 +15,10 @@ function loadTemplate(filepath, onLoad) {
     });
 }
 
-describe('',function () {
+describe('RomanNumerals',function () {
+    it('should convert numebers to Roman Numerals', function () {
+        let romanNumerals = require("../src/main");
 
+        expect(romanNumerals.fromNumber(1).toBe("I"));
+    });
 });
