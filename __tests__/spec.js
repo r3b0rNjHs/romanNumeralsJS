@@ -8,5 +8,6 @@ describe('RomanNumerals',function () {
         expect(application().fromNumber(2)).toBe("II");
         expect(application().fromNumber(3)).toBe("III");
         expect(application().fromNumber(4)).toBe("IV");
+        expect(application().fromNumber(2648)).toBe("MMDCXLVIII");
     });
 });
