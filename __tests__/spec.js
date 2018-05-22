@@ -20,5 +20,6 @@ describe('RomanNumerals',function () {
         //let romanNumerals = require("../src/main");
 
         expect(application().fromNumber(1)).toBe("I");
+        expect(application().fromNumber(2)).toBe("II");
     });
 });
