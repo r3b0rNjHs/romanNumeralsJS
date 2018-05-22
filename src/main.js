@@ -2,7 +2,7 @@ function application(){
 
     let numeral = function (value, numeral) {
         return {value: value, numeral: numeral};
-    }
+    };
     let numerals = [
         numeral(1000,"M"),
         numeral(900,"CM"),
@@ -23,13 +23,10 @@ function application(){
         numerals.forEach(function (actualNumber) {
             for (;number >= actualNumber.value;number -= actualNumber.value){
                 result += actualNumber.numeral;
-
             }
-
         });
         return result;
     }
-
     return{
         fromNumber
     }
