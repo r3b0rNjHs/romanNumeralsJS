@@ -16,9 +16,9 @@ function loadTemplate(filepath, onLoad) {
 }
 
 describe('RomanNumerals',function () {
-    it('should convert numebers to Roman Numerals', function () {
-        let romanNumerals = require("../src/main");
+    it('should convert numbers to Roman Numerals', function () {
+        //let romanNumerals = require("../src/main");
 
-        expect(romanNumerals.fromNumber(1).toBe("I"));
+        expect(application().fromNumber(1)).toBe("I");
     });
 });
